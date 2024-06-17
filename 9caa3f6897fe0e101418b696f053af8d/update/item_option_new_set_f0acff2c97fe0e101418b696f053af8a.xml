@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>flight_details</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 05:02:09</sys_created_on>
+        <sys_id>f0acff2c97fe0e101418b696f053af8a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Flight Details</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>item_option_new_set_f0acff2c97fe0e101418b696f053af8a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-17 16:26:31</sys_updated_on>
+        <title>Flight Details</title>
+        <type>one_to_many</type>
+        <version>12</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>
