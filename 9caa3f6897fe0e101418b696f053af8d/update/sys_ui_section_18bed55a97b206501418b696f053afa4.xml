@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="18bed55a97b206501418b696f053afa4" sys_domain="global" table="x_1047547_travel_0_travelrequest" version="3" view="workspace-ework-0">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1047547_travel_0_travelrequest</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 04:00:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18bed55a97b206501418b696f053afa4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1047547_travel_0_travelrequest</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+            <sys_update_name>sys_ui_section_18bed55a97b206501418b696f053afa4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 04:00:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace EWork 0" name="workspace-ework-0">3aae555ac9b206506554f0cf3af2d081</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="EWork - Workspace Search">36ae555a54b206502a2f6d178c24bc82</search_context_config>
+        <source display_value="EWork - x_1047547_travel_0_travelrequest">88bed55a97b206501418b696f053af10</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 04:00:22</sys_created_on>
+        <sys_id>40bed55a97b206501418b696f053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_40bed55a97b206501418b696f053af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 04:00:22</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

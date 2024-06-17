@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Home</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 04:00:18</sys_created_on>
+        <sys_id>b6ae555a71b20650caf93a100f6a1f80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_ux_screen_type_b6ae555a71b20650caf93a100f6a1f80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 04:00:18</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6ae555a71b20650caf93a100f6a1f80"/>
+</record_update>
