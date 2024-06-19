@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>false</applies_req_item>
+        <applies_req_item>true</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>set</applies_to>
@@ -39,7 +39,14 @@
             totalAllowance += allowance;
         }
     });
- 
+	var allowance = parseFloat(g_form.getValue('allowance_variable'));
+    
+    
+    var exchangeRate = 1.10;  
+    
+    var totalAllowance  = allowance * exchangeRate;
+
+    
     // Set the total allowance field
     g_form.setValue('total_allowance', totalAllowance.toFixed(2)); // Replace 'total_allowance' with your total allowance variable name
 }]]></script>
@@ -49,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>acf884a297fe06501418b696f053af93</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Show Allowance</sys_name>
         <sys_overrides/>
         <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
@@ -57,7 +64,7 @@
         <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
         <sys_update_name>catalog_script_client_acf884a297fe06501418b696f053af93</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 16:26:31</sys_updated_on>
+        <sys_updated_on>2024-06-19 04:39:17</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
