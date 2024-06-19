@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="ETravel">ad6381fe2ab68650e79b104ddbded269</dashboard>
+        <dashboard_tab display_value="RITM">616381fe04b68650a088c38801a8306a</dashboard_tab>
+        <layout>[{"sys_id":"696381fe8bb686505a56939abd841568","x":0,"y":3,"w":48,"h":24,"component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"sc_req_item\",\"fixedQuery\":\"stage=request_approved\",\"listTitle\":\"Request Record\",\"columns\":\"number,cat_item,request,sys_updated_on,priority\",\"query\":\"active=true\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"wordWrap\":false,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":true,\"hideDotwalk\":true,\"hideColumnReorder\":true,\"hideRowSelector\":false,\"hideColumnGrouping\":true,\"hideColumnResizing\":true,\"hideColumnFiltering\":true,\"hideColumnSorting\":false,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":true,\"refreshRequested\":\"\",\"noDebounce\":\"\",\"limit\":20}","can_edit":true},{"sys_id":"a16381fee6b68650c1216aae0b7f1d69","x":0,"y":0,"w":47,"h":3,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-primary\",\"label\":\"My Workspace\",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\",\"filterConfigurations\":[],\"noDebounce\":\"\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 15:18:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e96381fee1b68650c00e7b1098d46169</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>par_dashboard_canvas_e96381fee1b68650c00e7b1098d46169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 03:58:30</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

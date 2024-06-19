@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app etravel">9663c1fe97b686501418b696f053af35</applicability>
+        <list display_value="Open">6663c1fe97b686501418b696f053afc1</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 15:18:11</sys_created_on>
+        <sys_id>2a63c1fe97b686501418b696f053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_2a63c1fe97b686501418b696f053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-18 15:18:11</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>
