@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-12 09:31:21</sys_created_on>
         <sys_id>af7a7c3897364e101418b696f053afc2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-12 09:31:59</sys_updated_on>
+        <sys_updated_on>2024-06-12 09:33:40</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Travel Approval">0c50b0f897f24e101418b696f053af1b</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>f4f6583c97724e101418b696f053af3c</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>travel-request-workspace</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 06:56:04</sys_created_on>
+        <sys_id>05f6583c97724e101418b696f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Request Workspace</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_ux_page_registry_05f6583c97724e101418b696f053af3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 06:56:04</sys_updated_on>
+        <title>Travel Request Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</application>
+        <file_path/>
+        <instance_id>0f7569badb70f700b847ac44d4961938</instance_id>
+        <instance_name>dev81636</instance_name>
+        <name>sys_ux_page_registry_05f6583c97724e101418b696f053af3f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>f4f6583c97724e101418b696f053af3c</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>travel-request-workspace</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-12 06:56:04</sys_created_on><sys_id>05f6583c97724e101418b696f053af3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Travel Request Workspace</sys_name><sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package><sys_policy/><sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope><sys_update_name>sys_ux_page_registry_05f6583c97724e101418b696f053af3f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-12 06:56:04</sys_updated_on><title>Travel Request Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1369421468</payload_hash>
+        <record_name>Travel Request Workspace</record_name>
+        <reverted_from/>
+        <source>14aa3f6897fe0e101418b696f053af92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 06:56:04</sys_created_on>
+        <sys_id>05f6583c97724e101418b696f053af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900b3b75b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 06:56:04</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>49f6583ca6724e10ce34f397dd7a4c41</update_guid>
+        <update_guid_history>49f6583ca6724e10ce34f397dd7a4c41:-1369421468</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 11:06:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>01810b4196084ab4b0872a3e79e743e4</sys_id>
+        <sys_metadata>05f6583c97724e101418b696f053af3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Request Workspace</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_scope_delete display_value="">107c00100bad416e9df53a23b0f2f704</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_05f6583c97724e101418b696f053af3f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_05f6583c97724e101418b696f053af3f">05f6583c97724e101418b696f053af42</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 11:06:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

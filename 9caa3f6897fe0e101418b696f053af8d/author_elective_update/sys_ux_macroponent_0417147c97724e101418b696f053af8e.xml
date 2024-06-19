@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 06:56:33</sys_created_on>
+        <sys_id>0417147c97724e101418b696f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_ux_macroponent_0417147c97724e101418b696f053af8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 06:56:33</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=0417147c97724e101418b696f053af8e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</application>
+        <file_path/>
+        <instance_id>0f7569badb70f700b847ac44d4961938</instance_id>
+        <instance_name>dev81636</instance_name>
+        <name>sys_ux_macroponent_0417147c97724e101418b696f053af8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition/><da_relay_models/><data/><description/><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings/><layout/><macroponent_dependencies/><name>Default</name><output_prop_mapping/><props>[
+    
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties/><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-12 06:56:33</sys_created_on><sys_id>0417147c97724e101418b696f053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default</sys_name><sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package><sys_policy/><sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope><sys_update_name>sys_ux_macroponent_0417147c97724e101418b696f053af8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-12 06:56:33</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=0417147c97724e101418b696f053af8e"/></record_update>]]></payload>
+        <payload_hash>-284453233</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>14aa3f6897fe0e101418b696f053af92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 06:56:33</sys_created_on>
+        <sys_id>0c17147c97724e101418b696f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900b3be8330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 06:56:33</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>4017147cd3724e10892a1d0dab294490</update_guid>
+        <update_guid_history>4017147cd3724e10892a1d0dab294490:-284453233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-14 06:45:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>41f6724ebbe54a8c8d9684c32d1043b9</sys_id>
+        <sys_metadata>0417147c97724e101418b696f053af8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_scope_delete display_value="">107c00100bad416e9df53a23b0f2f704</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_0417147c97724e101418b696f053af8e</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_0417147c97724e101418b696f053af8e">0c17147c97724e101418b696f053af90</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-14 06:45:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

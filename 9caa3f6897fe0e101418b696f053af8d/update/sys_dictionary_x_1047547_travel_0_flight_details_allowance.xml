@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 10:29:01</sys_created_on>
-        <sys_id>db0e29ca9772c2501418b696f053af80</sys_id>
         <sys_name>Allowance</sys_name>
         <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
         <sys_policy/>

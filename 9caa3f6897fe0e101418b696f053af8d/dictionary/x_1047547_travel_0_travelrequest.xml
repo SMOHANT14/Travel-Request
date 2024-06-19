@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="990b37a897fe0e101418b696f053aff2" extends="task" label="TravelRequest" max_length="40" name="x_1047547_travel_0_travelrequest" type="collection">
+        <element label="Flight Number" max_length="40" name="flight_numbe0" type="string"/>
+        <element label="From Date" max_length="40" name="from_date" type="calendar_date_time"/>
+        <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Total Allowance" max_length="20" name="total_allowance" type="currency"/>
+    </element>
+</database>

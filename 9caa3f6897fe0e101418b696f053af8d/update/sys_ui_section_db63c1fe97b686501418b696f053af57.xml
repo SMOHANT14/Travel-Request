@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="db63c1fe97b686501418b696f053af57" sys_domain="global" table="x_1047547_travel_0_travelrequest" version="3" view="workspace-etravel-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 15:18:14</sys_created_on>
+            <sys_id>5b63c1fe97b686501418b696f053af59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_travelrequest" sys_domain="global" view="616381fe34b68650dc4cd37607918c67">db63c1fe97b686501418b696f053af57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 15:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 15:18:14</sys_created_on>
+            <sys_id>5f63c1fe97b686501418b696f053af58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_travelrequest" sys_domain="global" view="616381fe34b68650dc4cd37607918c67">db63c1fe97b686501418b696f053af57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 15:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 15:18:14</sys_created_on>
+            <sys_id>5363c1fe97b686501418b696f053af59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_travelrequest" sys_domain="global" view="616381fe34b68650dc4cd37607918c67">db63c1fe97b686501418b696f053af57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 15:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_allowance</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 15:18:14</sys_created_on>
+            <sys_id>5763c1fe97b686501418b696f053af59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_travelrequest" sys_domain="global" view="616381fe34b68650dc4cd37607918c67">db63c1fe97b686501418b696f053af57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 15:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 15:18:14</sys_created_on>
+            <sys_id>5f63c1fe97b686501418b696f053af59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_travelrequest" sys_domain="global" view="616381fe34b68650dc4cd37607918c67">db63c1fe97b686501418b696f053af57</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 15:18:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

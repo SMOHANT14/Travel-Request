@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Flight Details" language="en" table="x_1047547_travel_0_flight_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Flight Details</label>
+            <language>en</language>
+            <name>x_1047547_travel_0_flight_details</name>
+            <plural>Flight Details</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-16 10:27:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Flight Details</sys_name>
+            <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+            <sys_update_name>sys_documentation_x_1047547_travel_0_flight_details__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-16 10:27:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
