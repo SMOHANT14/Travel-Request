@@ -2,10 +2,12 @@
     <element db_object_id="8a9ded8a9772c2501418b696f053af09" extends="x_1047547_travel_0_travelrequest" label="Flight Details" max_length="40" name="x_1047547_travel_0_flight_details" type="collection">
         <element label="Airline" max_length="40" name="airline" type="string"/>
         <element label="Allowance" max_length="40" name="allowance" type="integer"/>
-        <element label="Allowance_Type" max_length="20" name="allowance_type" type="currency"/>
+        <element label="Allowance Type" max_length="40" name="allowance_typ0" type="string"/>
+        <element label="Allowan" max_length="20" name="allowance_type" type="currency"/>
         <element label="Flight Date" max_length="40" name="flight_date" type="glide_date"/>
         <element label="Flight Number" max_length="40" name="flight_number" type="string"/>
         <element label="From Location" max_length="32" name="from_location" reference="core_country" type="reference"/>
+        <element label="Reference Id" max_length="32" name="reference_id" reference="x_1047547_travel_0_travelrequest" type="reference"/>
         <element label="ref Id" max_length="32" name="ref_id" reference="x_1047547_travel_0_travelrequest" type="reference"/>
         <element label="To Location" max_length="32" name="to_location" reference="core_country" type="reference"/>
     </element>

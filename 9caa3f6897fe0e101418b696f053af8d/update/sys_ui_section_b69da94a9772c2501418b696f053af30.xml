@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>f9df283a977686501418b696f053af23</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>bd560f6397f68a501418b696f053af96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>flight_date</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>f1df283a977686501418b696f053af24</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b5560f6397f68a501418b696f053af97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>airline</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>f5df283a977686501418b696f053af24</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b9560f6397f68a501418b696f053af97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,83 +46,97 @@
             <element>flight_number</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>f9df283a977686501418b696f053af24</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>bd560f6397f68a501418b696f053af97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b1560f6397f68a501418b696f053af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>fddf283a977686501418b696f053af24</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b5560f6397f68a501418b696f053af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>allowance_type</element>
-            <position>5</position>
+            <element>allowance_typ0</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>f1df283a977686501418b696f053af25</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b9560f6397f68a501418b696f053af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>allowance</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>b9df683a977686501418b696f053aff1</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>bd560f6397f68a501418b696f053af98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>from_location</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>bddf683a977686501418b696f053aff1</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b1560f6397f68a501418b696f053af99</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>to_location</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:52:39</sys_created_on>
-            <sys_id>b1df683a977686501418b696f053aff2</sys_id>
+            <sys_created_on>2024-06-21 08:45:39</sys_created_on>
+            <sys_id>b5560f6397f68a501418b696f053af99</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1047547_travel_0_flight_details" sys_domain="global" view="Default view">b69da94a9772c2501418b696f053af30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:52:39</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:45:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -2,17 +2,17 @@
     <sys_ui_related sys_domain="global" table="x_1047547_travel_0_travelrequest" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="TravelRequest - Default view" name="x_1047547_travel_0_travelrequest" related_list="NULL" sys_domain="global" view="Default view">a941f47a977686501418b696f053af16</list_id>
+            <list_id display_value="TravelRequest - Default view" name="x_1047547_travel_0_travelrequest" related_list="NULL" sys_domain="global" view="Default view">024787e397f68a501418b696f053af88</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_1047547_travel_0_flight_details.parent</related_list>
+            <related_list>x_1047547_travel_0_flight_details.reference_id</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:58:55</sys_created_on>
-            <sys_id>2d41f47a977686501418b696f053af17</sys_id>
+            <sys_created_on>2024-06-21 08:49:45</sys_created_on>
+            <sys_id>4e4787e397f68a501418b696f053af88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:58:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:49:45</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>TravelRequest - Default view</calculated_name>
@@ -23,10 +23,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-18 13:58:55</sys_created_on>
+            <sys_created_on>2024-06-21 08:49:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a941f47a977686501418b696f053af16</sys_id>
+            <sys_id>024787e397f68a501418b696f053af88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>TravelRequest - Default view</sys_name>
             <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
@@ -34,7 +34,7 @@
             <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
             <sys_update_name>sys_ui_related_x_1047547_travel_0_travelrequest_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-18 13:58:55</sys_updated_on>
+            <sys_updated_on>2024-06-21 08:49:45</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
