@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Sending notification to User" name="Sending notification to User">265a251a97f206501418b696f053afc6</category>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>sc_req_item</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -36,13 +36,12 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi&nbsp;</p>
-<p>Your request has successfully Submitted</p>
-<p>${mail_script:User_Travel}</p>
-<p>&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<p>Hi&nbsp; ${requested_for}<br /><br /></p>
+<p>Your record ${number} has been submitted successfully</p>
+<p>${mail_script:Approval}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Submit Request</name>
+        <name>Request Submit</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -53,23 +52,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Submission</subject>
+        <subject>Your request number has submitted</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-17 04:56:00</sys_created_on>
+        <sys_created_on>2024-06-26 04:01:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b61a211a97f206501418b696f053af3a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Submit Request</sys_name>
+        <sys_id>3254b38d978742901418b696f053af33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
-        <sys_update_name>sysevent_email_action_b61a211a97f206501418b696f053af3a</sys_update_name>
+        <sys_update_name>sysevent_email_action_3254b38d978742901418b696f053af33</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 04:56:00</sys_updated_on>
+        <sys_updated_on>2024-06-26 05:38:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>

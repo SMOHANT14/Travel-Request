@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Allowance Display</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   if (this) {
+            this.cat_g_form.setValue('allowance_updated', true);
+        } else {
+            //Native UI logic
+            parent.g_form.setValue('allowance_updated', true);
+        }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 08:43:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6fba3f0970702901418b696f053af31</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Allowance Display</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>catalog_script_client_e6fba3f0970702901418b696f053af31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 08:53:42</sys_updated_on>
+        <table/>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set display_value="Flight Details">f0acff2c97fe0e101418b696f053af8a</variable_set>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</application>
+        <file_path/>
+        <instance_id>0f7569badb70f700b847ac44d4961938</instance_id>
+        <instance_name>dev81636</instance_name>
+        <name>catalog_script_client_e6fba3f0970702901418b696f053af31</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;cat_item/&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Allowance Display&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   if (this) {
+            this.cat_g_form.setValue('allowance_updated', true);
+        } else {
+            //Native UI logic
+            parent.g_form.setValue('allowance_updated', true);
+        }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-25 08:43:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e6fba3f0970702901418b696f053af31&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Allowance Display&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Travel_Request" source="x_1047547_travel_0"&gt;9caa3f6897fe0e101418b696f053af8d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Travel_Request"&gt;9caa3f6897fe0e101418b696f053af8d&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_e6fba3f0970702901418b696f053af31&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-25 08:53:42&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;false&lt;/va_supported&gt;&lt;variable_set display_value="Flight Details"&gt;f0acff2c97fe0e101418b696f053af8a&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-343697160</payload_hash>
+        <record_name>Allowance Display</record_name>
+        <reverted_from/>
+        <source>67f954cf9776c6501418b696f053af26</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 08:53:42</sys_created_on>
+        <sys_id>3e8eabf4970702901418b696f053afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904e99d4480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 08:53:42</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>f28eabf4610702909c49466de31ba1eb</update_guid>
+        <update_guid_history>f28eabf4610702909c49466de31ba1eb:-343697160,5d4ee7f4350702908d0a942e5cbe6696:-1112037765,21bca73494070290df388dea4a66a510:-343697160,044cab34f407029075a2cea4fd209bf2:-970966503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Allowance Display">3d00bb78970702901418b696f053afe3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-25 09:00:11</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>367d9632efb44e10b21900f94214be40</sys_id>
+        <sys_metadata>e6fba3f0970702901418b696f053af31</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Allowance Display</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_scope_delete display_value="">107c00100bad416e9df53a23b0f2f704</sys_scope_delete>
+        <sys_update_name>catalog_script_client_e6fba3f0970702901418b696f053af31</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_e6fba3f0970702901418b696f053af31">3e8eabf4970702901418b696f053afeb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-25 09:00:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

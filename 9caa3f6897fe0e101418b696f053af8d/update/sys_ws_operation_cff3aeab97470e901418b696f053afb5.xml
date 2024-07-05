@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Employeeinfo</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+ 
+    //var pathParam = request.pathParam;
+    //var tableName = queryParams.tableName;
+    var employee_number = request.pathParams.employee_number;
+
+ 
+    var result = {};
+    var approvalArray = [];
+    var taskArray = [];
+ 
+    var incGr = new GlideRecord('sys_user');
+    incGr.addQuery('employee_number', employee_number);
+    incGr._query();
+ 
+    if (incGr.next()) {
+       // var result = {};
+        result.employee_name = incGr.getValue('name');
+ //  response.setBody(result);
+    } else {
+        response.setBody({
+            error: "employee_number does not found"
+        });
+    }
+ 
+    var approvalGr = new GlideRecord('sysapproval_approver');
+    approvalGr.addQuery('approver', incGr.getValue('sys_id'));
+    approvalGr.query();
+    while (approvalGr.next()) {
+        var answer = {};
+        answer.sys_id = approvalGr.getValue('sys_id');
+        answer.approval_for = approvalGr.getDisplayValue('document_id');
+        answer.state = approvalGr.getValue('state'),
+            answer.approver = approvalGr.getDisplayValue('approver');
+       // userArray.push(answer);
+        approvalArray.push(answer);
+    }
+ 
+   // response.setBody(userArray);
+    var taskGr = new GlideRecord('task');
+    taskGr.addQuery('assigned_to', incGr.getValue('sys_id'));
+    taskGr._query();
+ 
+    while (taskGr.next()) {
+        var tasklist = {};
+        tasklist.number = taskGr.getValue('number');
+        tasklist.assigned_to = taskGr.getDisplayValue('assigned_to');
+      //  userArray.push(tasklist);
+        taskArray.push(tasklist);
+    }
+ 
+   // response.setBody(userArray);
+    //return answer;
+    response.setBody({
+        Employee:result,
+        Approvals:approvalArray,
+        Tasks:taskArray
+    });
+	var logGR = new GlideRecord('x_1047547_travel_0_transaction_log');
+        logGR.initialize();
+        logGR.employee_number = employee_number;
+        logGR.timestamp = new GlideDateTime();
+        //logGR.transaction_count = this.getTransactionCount(employeeNumber) + 1;
+        //logGR.type = 'EmployeeDataFetch'; // Example type
+        logGR.insert();
+ 
+ 
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1047547_travel_0/employee_information_api/employeeinfo/{employee_number}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/employeeinfo/{employee_number}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 16:34:16</sys_created_on>
+        <sys_id>cff3aeab97470e901418b696f053afb5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Employeeinfo</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_ws_operation_cff3aeab97470e901418b696f053afb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 14:54:03</sys_updated_on>
+        <web_service_definition display_value="Employee Information API">4ac366ab97470e901418b696f053af90</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

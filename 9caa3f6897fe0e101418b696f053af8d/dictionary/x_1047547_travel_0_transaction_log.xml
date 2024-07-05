@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b541ff397cb4e901418b696f053af62" label="Transaction Log" max_length="40" name="x_1047547_travel_0_transaction_log" type="collection">
+        <element label="Employee Number" max_length="40" name="employee_number" type="string"/>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_time"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

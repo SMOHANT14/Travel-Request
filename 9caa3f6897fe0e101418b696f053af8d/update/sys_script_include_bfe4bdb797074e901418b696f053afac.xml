@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1047547_travel_0.EmployeeInfo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EmployeeInfo</name>
+        <script><![CDATA[var EmployeeDataAPI = Class.create();
+EmployeeDataAPI.prototype = {
+    initialize: function() {},
+ 
+    getEmployeeData: function(employeeNumber) {
+        var result = {};
+ 
+        // Fetch user record
+        var userGR = new GlideRecord('sys_user');
+        if (userGR.get('employee_number', employeeNumber)) {
+            result.user = userGR.getDisplayValue();
+        } else {
+            result.error = "Employee not found";
+            return result;
+        }
+ 
+        // Fetch tasks
+        var taskGR = new GlideRecord('task');
+        taskGR.addQuery('assigned_to', userGR.sys_id);
+        taskGR.query();
+        result.tasks = [];
+        while (taskGR.next()) {
+            result.tasks.push(taskGR.getDisplayValue());
+        }
+ 
+        // Fetch approvals
+        var approvalGR = new GlideRecord('sysapproval_approver');
+        approvalGR.addQuery('approver', userGR.sys_id);
+        approvalGR.query();
+        result.approvals = [];
+        while (approvalGR.next()) {
+            result.approvals.push(approvalGR.getDisplayValue());
+        }
+ 
+        // Log the transaction
+        this.logTransaction(employeeNumber);
+ 
+        return result;
+    },
+ 
+    logTransaction: function(employeeNumber) {
+        var logGR = new GlideRecord('x_1040502_employ_0_transaction_log');
+        logGR.initialize();
+        logGR.employee_number = employeeNumber;
+        logGR.timestamp = new GlideDateTime();
+        logGR.transaction_count = this.getTransactionCount(employeeNumber) + 1;
+        logGR.type = 'EmployeeDataFetch'; // Example type
+        logGR.insert();
+    },
+ 
+    getTransactionCount: function(employeeNumber) {
+        var logGR = new GlideAggregate('x_1040502_employ_0_transaction_log');
+        logGR.addQuery('employee_number', employeeNumber);
+        logGR.addAggregate('COUNT');
+        logGR.query();
+        if (logGR.next()) {
+            return logGR.getAggregate('COUNT');
+        }
+        return 0;
+    },
+ 
+    type: 'EmployeeDataAPI'
+};
+ ]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-04 07:45:09</sys_created_on>
+        <sys_id>bfe4bdb797074e901418b696f053afac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EmployeeInfo</sys_name>
+        <sys_package display_value="Travel_Request" source="x_1047547_travel_0">9caa3f6897fe0e101418b696f053af8d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Travel_Request">9caa3f6897fe0e101418b696f053af8d</sys_scope>
+        <sys_update_name>sys_script_include_bfe4bdb797074e901418b696f053afac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-04 07:45:38</sys_updated_on>
+    </sys_script_include>
+</record_update>
